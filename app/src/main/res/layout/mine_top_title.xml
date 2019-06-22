@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_top_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_title_height">
+
+    <Button
+        android:id="@+id/mine_top_title_left_btn1"
+        android:background="@drawable/q0"
+        android:layout_marginLeft="@dimen/top_title_icon_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/top_title_icon_width"
+        android:layout_height="@dimen/top_title_icon_width" />
+
+    <TextView
+        android:id="@+id/mine_top_title_left_tx"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/mine_title_left"
+        android:layout_toRightOf="@id/mine_top_title_left_btn1"
+        android:layout_margin="@dimen/top_title_text_margintop"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/top_title_textsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mine_top_title_right_btn1"
+        android:background="@drawable/a2l"
+        android:layout_marginEnd="@dimen/top_title_icon_margin"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/mine_top_title_right_btn2"
+        android:layout_width="@dimen/top_title_icon_width"
+        android:layout_height="@dimen/top_title_icon_width" />
+    <Button
+        android:id="@+id/mine_top_title_right_btn2"
+        android:background="@drawable/a2h"
+        android:layout_marginRight="@dimen/top_title_icon_margin"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/mine_top_title_right_btn3"
+        android:layout_width="@dimen/top_title_icon_width"
+        android:layout_height="@dimen/top_title_icon_width" />
+    <Button
+        android:id="@+id/mine_top_title_right_btn3"
+        android:background="@drawable/a0x"
+        android:layout_marginRight="@dimen/top_title_icon_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/top_title_icon_width"
+        android:layout_height="@dimen/top_title_icon_width" />
+
+</RelativeLayout>

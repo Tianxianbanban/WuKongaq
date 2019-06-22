@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        android:layout_gravity="bottom"
+        app:background="@color/background_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include
+                android:id="@+id/include_home_title"
+                android:layout_marginTop="@dimen/top_freeroom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/home_top_title"/>
+            <include
+                android:id="@+id/include_mine_title"
+                android:visibility="invisible"
+                android:layout_marginTop="@dimen/top_freeroom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/mine_top_title"/>
+        </FrameLayout>
+    </android.support.v7.widget.Toolbar>
+    
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bnv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_height"
+        android:layout_gravity="bottom"
+        android:background="@color/background_1"
+        app:menu="@menu/bottom_navigation"
+        app:itemIconTint="@drawable/bottom_navigation_selector"
+        app:itemTextColor="@drawable/bottom_navigation_selector">
+    </android.support.design.widget.BottomNavigationView>
+
+</LinearLayout>

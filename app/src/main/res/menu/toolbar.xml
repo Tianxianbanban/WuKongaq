@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/friend_circle"
+        android:icon="@drawable/a2l"
+        app:showAsAction="always"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/weichar"
+        android:icon="@drawable/a2l"
+        app:showAsAction="always"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/a2l"
+        app:showAsAction="always"
+        android:title=""
+        />
+
+</menu>

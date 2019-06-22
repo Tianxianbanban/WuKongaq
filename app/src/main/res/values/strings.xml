@@ -1,0 +1,23 @@
+<resources>
+    <!--应用名称-->
+    <string name="app_name">悟空问答</string>
+    <!--底部导航栏选项-->
+    <string name="bottom_home">首页</string>
+    <string name="bottom_attention">关注</string>
+    <string name="bottom_message">消息</string>
+    <string name="bottom_mine">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--首页-->
+    <string name="home_title_center">推荐</string>
+    <string name="home_title_right">提问</string>
+    <!--关注-->
+    <string name="attention_title_center">关注</string>
+    <!--消息-->
+    <string name="message_title_center">消息</string>
+    <!--我的-->
+    <string name="mine_title_left">好友</string>
+
+
+</resources>

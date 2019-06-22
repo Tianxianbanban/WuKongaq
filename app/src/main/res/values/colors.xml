@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background_1">#ffffff</color>
+
+
+    <color name="color_1">#000</color>
+
+    <!--底部导航栏被选择颜色-->
+    <color name="bottom_selected">#000</color>
+    <color name="bottom_unselected">#CFCFDC</color>
+</resources>

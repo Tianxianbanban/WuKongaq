@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bnv_item_home"
+        android:icon="@drawable/xj"
+        android:title="首页" />
+    <item
+        android:id="@+id/bnv_item_attention"
+        android:icon="@drawable/a7i"
+        android:title="关注" />
+    <item
+        android:id="@+id/bnv_item_message"
+        android:icon="@drawable/a0o"
+        android:title="消息" />
+    <item
+        android:id="@+id/bnv_item_mine"
+        android:icon="@drawable/a23"
+        android:title="我的" />
+
+</menu>
