@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mine_user_head"
+        android:src="@drawable/my_user"
+        android:layout_margin="@dimen/mine_user_head_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/mine_user_head_width"
+        android:layout_height="@dimen/mine_user_head_width" />
+    <TextView
+        android:text="嘤嘤嘤"
+        android:layout_marginTop="@dimen/mine_user_name_margin_top"
+        android:textSize="@dimen/mine_user_name_size"
+        android:layout_toRightOf="@id/mine_user_head"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/mine_user_introduction"
+        android:drawableLeft="@drawable/mine_1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mine_user_margin_normal"
+        android:layout_below="@id/mine_user_head"
+        android:text=" 介绍：一句话介绍自己的职业或者兴趣 "
+        android:textColor="@color/color_1"
+        android:drawableRight="@drawable/mine_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/mine_user_funs"
+        android:text="0粉丝"
+        android:layout_below="@id/mine_user_introduction"
+        android:layout_margin="@dimen/mine_user_margin_normal"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mine_user_attention"
+        android:text="0关注"
+        android:layout_toRightOf="@id/mine_user_funs"
+        android:layout_margin="@dimen/mine_user_margin_normal"
+        android:layout_below="@id/mine_user_introduction"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mine_user_agree"
+        android:text="0赞同"
+        android:layout_toRightOf="@id/mine_user_attention"
+        android:layout_margin="@dimen/mine_user_margin_normal"
+        android:layout_below="@id/mine_user_introduction"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

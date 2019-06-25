@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/mine_content_replay_null"
+        layout="@layout/mine_content_common_null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="@string/mine_content_null_tip2_todo"
+        android:textColor="@color/color_2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mine_content_replay_null"
+        android:background="@drawable/mine_content_null_btn_orange"
+        android:layout_width="@dimen/mine_content_null_btn_width"
+        android:layout_height="@dimen/mine_content_null_btn_height" />
+
+
+
+</RelativeLayout>

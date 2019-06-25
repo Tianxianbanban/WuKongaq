@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:rowCount="2"
+    android:columnCount="4"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/a8f"
+        android:layout_width="@dimen/mine_menu_width"
+        android:layout_height="@dimen/mine_menu_width"
+        android:layout_marginLeft="@dimen/mine_menu_margin_normal"
+        android:layout_marginRight="@dimen/mine_menu_margin_normal"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/sj"
+        android:layout_width="@dimen/mine_menu_width"
+        android:layout_height="@dimen/mine_menu_width"
+        android:layout_marginLeft="@dimen/mine_menu_margin_normal"
+        android:layout_marginRight="@dimen/mine_menu_margin_normal"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/qp"
+        android:layout_width="@dimen/mine_menu_width"
+        android:layout_height="@dimen/mine_menu_width"
+        android:layout_marginLeft="@dimen/mine_menu_margin_normal"
+        android:layout_marginRight="@dimen/mine_menu_margin_normal"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/tm"
+        android:layout_width="@dimen/mine_menu_width"
+        android:layout_height="@dimen/mine_menu_width"
+        android:layout_marginLeft="@dimen/mine_menu_margin_normal"
+        android:layout_marginRight="@dimen/mine_menu_margin_normal"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <TextView
+        android:text="@string/mine_menu_1"
+        android:textColor="@color/color_1"
+        android:layout_marginTop="@dimen/mine_menu_text_margin_top"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="@string/mine_menu_2"
+        android:textColor="@color/color_1"
+        android:layout_marginTop="@dimen/mine_menu_text_margin_top"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="@string/mine_menu_3"
+        android:textColor="@color/color_1"
+        android:layout_marginTop="@dimen/mine_menu_text_margin_top"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="@string/mine_menu_4"
+        android:textColor="@color/color_1"
+        android:layout_marginTop="@dimen/mine_menu_text_margin_top"
+        android:layout_gravity="center_horizontal"
+        />
+
+</GridLayout>

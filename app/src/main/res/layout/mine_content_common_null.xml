@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/mine_content_common_null_iv"
+        android:layout_marginTop="@dimen/mine_content_null_margin_top"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mine_null"
+        android:layout_width="@dimen/mine_content_null_width"
+        android:layout_height="@dimen/mine_content_null_width" />
+
+    <TextView
+        android:id="@+id/mine_content_null_common_note"
+        android:layout_below="@id/mine_content_common_null_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/mine_content_null_note_margin"
+        android:textSize="@dimen/mine_content_null_note_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

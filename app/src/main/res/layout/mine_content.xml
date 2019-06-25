@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_2"
+    android:layout_width="match_parent"
+    android:minHeight="200dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_content_navigation_height"
+        android:background="@color/background_1">
+        <TextView
+            android:id="@+id/mine_content_one_tx"
+            android:textSize="@dimen/mine_content_navigation_size"
+            android:text="@string/mine_content_1"
+            android:textColor="@color/color_1"
+            android:layout_toStartOf="@id/mine_content_two_tx"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mine_content_two_tx"
+            android:textSize="@dimen/mine_content_navigation_size"
+            android:layout_centerInParent="true"
+            android:text="@string/mine_content_2"
+            android:textColor="@color/color_1"
+            android:layout_margin="@dimen/mine_content_navigation_title_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mine_content_three_tx"
+            android:textSize="@dimen/mine_content_navigation_size"
+            android:text="@string/mine_content_3"
+            android:textColor="@color/color_1"
+            android:layout_toEndOf="@id/mine_content_two_tx"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/mine_content_cursor_img"
+            android:layout_alignRight="@id/mine_content_one_tx"
+            android:layout_below="@id/mine_content_one_tx"
+            android:scaleType="matrix"
+            android:background="@drawable/mine_mark"
+            android:layout_width="@dimen/mine_content_navigation_cursor_width"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mine_content_viewpager"
+        android:background="@color/background_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_content_viewPager_height"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>
