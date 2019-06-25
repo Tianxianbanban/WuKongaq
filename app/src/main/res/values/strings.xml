@@ -16,8 +16,24 @@
     <string name="attention_title_center">关注</string>
     <!--消息-->
     <string name="message_title_center">消息</string>
+
+
     <!--我的-->
     <string name="mine_title_left">好友</string>
-
+    <string name="mine_menu_1">赞同</string>
+    <string name="mine_menu_2">收藏</string>
+    <string name="mine_menu_3">答题</string>
+    <string name="mine_menu_4">草稿</string>
+    <!--我的viewpager导航板块页面-->
+    <string name="mine_content_1">动态</string>
+    <string name="mine_content_2">回答</string>
+    <string name="mine_content_3">提问</string>
+    <!--没有内容时的提示-->
+    <string name="mine_content_null_tip1">还没有动态</string>
+    <string name="mine_content_null_tip2">还没有回答过问题</string>
+    <string name="mine_content_null_tip3">还没有提过问题</string>
+    <string name="mine_content_null_tip2_todo">去答题</string>
+    <string name="todo_1">TODO</string>
+    <string name="todo_2">TODO</string>
 
 </resources>

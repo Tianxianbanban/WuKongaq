@@ -28,4 +28,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //BottomNavigationView实现底部导航栏
     implementation 'com.android.support:design:28.0.0'
+    //圆形图像控件
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 }
