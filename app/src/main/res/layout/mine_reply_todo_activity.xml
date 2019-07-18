@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MineReplyTodoActivity">
+
+    <RelativeLayout
+        android:id="@+id/mine_reply_todo_topbar_rl"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/mine_reply_todo_back_btn"
+            android:background="@drawable/recommend_back"
+            android:layout_alignParentBottom="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:text="答题"
+            android:textSize="20sp"
+            android:textColor="@color/color_1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/mine_reply_todo_question_list_refresh_srl"
+        android:layout_below="@id/mine_reply_todo_topbar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mine_reply_todo_question_list_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

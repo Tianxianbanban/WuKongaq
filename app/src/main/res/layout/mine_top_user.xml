@@ -12,10 +12,11 @@
         android:layout_width="@dimen/mine_user_head_width"
         android:layout_height="@dimen/mine_user_head_width" />
     <TextView
+        android:id="@+id/mine_user_name"
         android:text="嘤嘤嘤"
         android:layout_marginTop="@dimen/mine_user_name_margin_top"
         android:textSize="@dimen/mine_user_name_size"
-        android:layout_toRightOf="@id/mine_user_head"
+        android:layout_toEndOf="@id/mine_user_head"
         android:textColor="@color/color_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -60,6 +61,4 @@
         android:textColor="@color/color_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
 </RelativeLayout>

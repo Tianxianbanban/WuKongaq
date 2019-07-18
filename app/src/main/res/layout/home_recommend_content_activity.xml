@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_2"
+    tools:context=".view.activity.HomeRecommendContentActivity">
+
+    <RelativeLayout
+        android:id="@+id/home_recommend_activity_title_rl"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="@dimen/top_height">
+
+        <Button
+            android:id="@+id/home_recommend_activity_back_btn"
+            android:background="@drawable/recommend_back"
+            android:layout_alignParentBottom="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <ImageView
+            android:id="@+id/home_recommend_activity_attention_iv"
+            android:src="@drawable/recommend_attention"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/home_recommend_activity_share_iv"
+            android:layout_marginRight="20dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <ImageView
+            android:id="@+id/home_recommend_activity_share_iv"
+            android:src="@drawable/recommend_share"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+    </RelativeLayout>
+
+    <com.cy.develop.wukongaq.util.BounceScrollView
+        android:layout_below="@id/home_recommend_activity_title_rl"
+        android:layout_above="@id/home_recommend_activity_bottom_rl"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/home_recommend_activity_problem_rl"
+                android:layout_margin="10dp"
+                android:background="@color/background_1"
+                android:outlineSpotShadowColor="@color/color_1"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/home_recommend_activity_title_tv"
+                    android:text="标题hahahahahahahah"
+                    android:textSize="18sp"
+                    android:textColor="@color/color_1"
+                    android:maxLines="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_to_answer_tv"
+                    android:layout_marginTop="10dp"
+                    android:text="去回答"
+                    android:layout_below="@id/home_recommend_activity_title_tv"
+                    android:background="@color/background_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_look_answer_tv"
+                    android:text="查看回答"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/home_recommend_activity_title_tv"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/color_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_below="@id/home_recommend_activity_problem_rl"
+                android:background="@color/background_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/home_recommend_activity_content_head_civ"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/my_user"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/home_recommend_activity_content_name_tv"
+                    android:layout_toEndOf="@id/home_recommend_activity_content_head_civ"
+                    android:text="答主名字"
+                    android:textColor="@color/color_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_content_date_and_certification_tv"
+                    android:layout_toEndOf="@id/home_recommend_activity_content_head_civ"
+                    android:layout_below="@id/home_recommend_activity_content_name_tv"
+                    android:text="2月17日 . 潇湘晨报记者"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/home_recommend_activity_content_attention_tv"
+                    android:textColor="@color/color_2"
+                    android:layout_alignParentRight="true"
+                    android:text=" +关注"
+                    android:textSize="15sp"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/home_recommend_activity_content_tv"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/home_recommend_activity_content_head_civ"
+                    android:textColor="@color/color_1"
+                    android:text="哈哈哈哈哈哈哈哈"
+                    android:textSize="17sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/home_recommend_activity_content_reader_num_tv"
+                    android:layout_margin="30dp"
+                    android:layout_below="@id/home_recommend_activity_content_tv"
+                    android:text="阅读量20万"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_margin="30dp"
+                    android:layout_below="@id/home_recommend_activity_content_tv"
+                    android:layout_alignParentRight="true"
+                    android:text="举报"
+                    android:textColor="@color/color_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/home_recommend_activity_writer_head_civ"
+                    android:src="@drawable/my_user"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_writer_name_tv"
+                    android:text="我就是爱打球"
+                    android:textColor="@color/color_1"
+                    android:textSize="15sp"
+                    android:layout_toRightOf="@id/home_recommend_activity_writer_head_civ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_writer_introduction_tv"
+                    android:text="体育达人"
+                    android:textSize="10sp"
+                    android:layout_below="@id/home_recommend_activity_writer_name_tv"
+                    android:layout_toRightOf="@id/home_recommend_activity_writer_head_civ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/home_recommend_activity_writer_funs_tv"
+                    android:layout_toEndOf="@id/home_recommend_activity_writer_head_civ"
+                    android:layout_below="@id/home_recommend_activity_writer_introduction_tv"
+                    android:text="2969粉丝 1.1万赞 577回答"
+                    android:textSize="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@color/color_2"
+                    android:layout_alignParentRight="true"
+                    android:text=" +关注"
+                    android:textSize="15sp"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@color/background_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/home_recommend_activity_comment_start_tv"
+                    android:text="-全部评论-"
+                    android:layout_margin="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ListView
+                    android:id="@+id/home_recommend_activity_comment_lv"
+                    android:layout_below="@id/home_recommend_activity_comment_start_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="900dp">
+                </ListView>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </com.cy.develop.wukongaq.util.BounceScrollView>
+
+    <RelativeLayout
+        android:id="@+id/home_recommend_activity_bottom_rl"
+        android:background="@color/background_1"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/home_recommend_activity_bottom_input_et"
+            android:lines="1"
+            android:hint="请赐评..."
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/home_recommend_activity_bottom_message_iv"
+            android:src="@drawable/recommend_message"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/home_recommend_activity_bottom_like_iv"
+            android:layout_marginRight="15dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/home_recommend_activity_bottom_message_num_tv"
+            android:text="12"
+            android:textSize="12sp"
+            android:layout_alignEnd="@id/home_recommend_activity_bottom_message_iv"
+            android:textColor="@color/background_1"
+            android:background="@drawable/home_recommend_comment_num_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/home_recommend_activity_bottom_like_iv"
+            android:src="@drawable/recommend_up"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toStartOf="@id/home_recommend_activity_bottom_like_num_tv"
+            android:rotation="180"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/home_recommend_activity_bottom_like_num_tv"
+            android:layout_toStartOf="@id/home_recommend_activity_bottom_step_iv"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:text="12"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/home_recommend_activity_bottom_step_iv"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/recommend_up"
+            android:layout_alignParentRight="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

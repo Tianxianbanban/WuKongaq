@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:rowCount="2"
+        android:columnCount="4"
+        android:layout_marginTop="@dimen/login_margin"
+        android:layout_marginStart="@dimen/login_margin"
+        android:layout_marginEnd="@dimen/login_margin"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/login_menu_1"
+            android:src="@drawable/login_1"
+            android:layout_width="@dimen/login_item_width"
+            android:layout_height="@dimen/login_item_width"
+            android:layout_marginLeft="@dimen/login_item_margin_normal"
+            android:layout_marginRight="@dimen/login_item_margin_normal"
+            android:layout_columnWeight="1"
+            tools:targetApi="lollipop" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/login_menu_2"
+            android:src="@drawable/login_2"
+            android:layout_width="@dimen/login_item_width"
+            android:layout_height="@dimen/login_item_width"
+            android:layout_marginLeft="@dimen/login_item_margin_normal"
+            android:layout_marginRight="@dimen/login_item_margin_normal"
+            android:layout_columnWeight="1"
+            tools:targetApi="lollipop" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/login_menu_3"
+            android:src="@drawable/login_3"
+            android:layout_width="@dimen/login_item_width"
+            android:layout_height="@dimen/login_item_width"
+            android:layout_marginLeft="@dimen/login_item_margin_normal"
+            android:layout_marginRight="@dimen/login_item_margin_normal"
+            android:layout_columnWeight="1"
+            tools:targetApi="lollipop" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/login_menu_4"
+            android:src="@drawable/login_4"
+            android:layout_width="@dimen/login_item_width"
+            android:layout_height="@dimen/login_item_width"
+            android:layout_marginLeft="@dimen/login_item_margin_normal"
+            android:layout_marginRight="@dimen/login_item_margin_normal"
+            android:layout_columnWeight="1"
+            tools:targetApi="lollipop" />
+
+    </GridLayout>
+
+    <com.cy.develop.wukongaq.util.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/login_00"
+            android:layout_marginStart="@dimen/login_item_botton_iv_margin"
+            android:layout_marginEnd="@dimen/login_item_botton_iv_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo_3" />
+    </com.cy.develop.wukongaq.util.BounceScrollView>
+
+</LinearLayout>

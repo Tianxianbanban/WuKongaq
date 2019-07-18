@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@color/background_1"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="标题"
+        android:id="@+id/home_recommend_title_tv"
+        android:textSize="20sp"
+        android:textColor="@color/color_1"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/home_recommend_user_head_civ"
+        android:layout_below="@id/home_recommend_title_tv"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/my_user"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/home_recommend_user_name_tx"
+        android:text="最可爱的嘤嘤嘤"
+        android:layout_margin="12dp"
+        android:layout_below="@id/home_recommend_title_tv"
+        android:layout_toEndOf="@id/home_recommend_user_head_civ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_recommend_content_tv"
+        android:textSize="17sp"
+        android:layout_below="@id/home_recommend_user_head_civ"
+        android:layout_marginTop="7dp"
+        android:maxLines="3"
+        android:text="有一棵年轻的小树苗，每当他看到大树威武地看着天空时，他就特别想长大，他不接受太阳的光芒，天天想长大，他不和别的树苗玩耍，他只想着长大!终于，他长大了，他高兴，他快乐，他兴奋!别的大树被砍了当房梁，挂上彩带，他，也想。终于，他也被挂上了彩带，过了几年，他被扔到了一个黑暗的地方，在那里看到了别的树木。最后，和他们一起烧掉了!他卡擦，卡擦。的声响，是他声声的叹息!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_recommend_approval_num_tv"
+        android:text="0赞同"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/home_recommend_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_recommend_comment_num_tv"
+        android:layout_margin="10dp"
+        android:layout_below="@id/home_recommend_content_tv"
+        android:layout_toEndOf="@id/home_recommend_approval_num_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0评论" />
+
+    <View
+        android:background="@color/background_2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/home_recommend_approval_num_tv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

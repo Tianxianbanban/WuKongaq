@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.HomeRecommendReplyActivity">
+
+    <RelativeLayout
+        android:id="@+id/home_recommend_reply_top_bar"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/home_recommend_reply_cancel_tv"
+            android:text="取消"
+            android:textColor="@color/color_1"
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/home_recommend_reply_commit_tv"
+            android:text="发布"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/color_1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/home_recommend_reply_top_bar"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/home_recommend_reply_question_tv"
+                android:hint="fadfadf"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/home_recommend_reply_answer_et"
+                android:layout_marginTop="5dp"
+                android:hint="分享你真实的观点和经验"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

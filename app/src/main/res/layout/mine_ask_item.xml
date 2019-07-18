@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/mine_ask_title"
+        android:text="一个标题"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_ask_to_answer_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/mine_ask_title"
+        android:background="@color/background_2"
+        android:text="去回答"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/home_ask_collection_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/mine_ask_title"
+        android:layout_toEndOf="@id/home_ask_to_answer_tv"
+        android:text="0收藏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/home_ask_answer_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/mine_ask_title"
+        android:layout_toEndOf="@id/home_ask_collection_tv"
+        android:text="0回答"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

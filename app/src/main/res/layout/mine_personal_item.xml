@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/mine_personal_item_tv"
+        android:textSize="20sp"
+        android:text="选项"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mine_personal_head_civ"
+        android:layout_toStartOf="@id/mine_personal_item_to_iv"
+        android:src="@drawable/my_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/mine_personal_item_content_tv"
+        android:textColor="@color/color_3"
+        android:layout_toStartOf="@id/mine_personal_item_to_iv"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/mine_personal_item_to_iv"
+        android:layout_centerVertical="true"
+        android:src="@drawable/recommend_back"
+        android:layout_alignParentRight="true"
+        android:rotation="180"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+</RelativeLayout>

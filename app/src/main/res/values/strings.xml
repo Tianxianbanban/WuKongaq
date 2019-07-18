@@ -16,6 +16,10 @@
     <string name="attention_title_center">关注</string>
     <!--消息-->
     <string name="message_title_center">消息</string>
+    <string name="message_item_1">收到赞同</string>
+    <string name="message_item_2">我的粉丝</string>
+    <string name="message_item_3">邀请回答</string>
+    <string name="message_item_4">系统通知</string>
 
 
     <!--我的-->
@@ -34,6 +38,26 @@
     <string name="mine_content_null_tip3">还没有提过问题</string>
     <string name="mine_content_null_tip2_todo">去答题</string>
     <string name="todo_1">TODO</string>
-    <string name="todo_2">TODO</string>
+
+
+    <!--全局-->
+    <string name="main_user_edit_username">用户名</string>
+    <string name="main_user_edit_password">密码</string>
+    <string name="main_user_login">登录</string>
+    <string name="main_user_register">注册</string>
+    <string name="todo_3">TODO</string>
+
+
+    <!--登录注册公共部分-->
+    <string name="login_dialog_phone">手机号</string>
+    <string name="login_dialog_password">密码</string>
+    <string name="login_dialog_access">进入问答</string>
+    <string name="login_dialog_register">先去注册</string>
+    <string name="login_dialog_login_other">免密码登录</string>
+
+    <!--以下活动-->
+    <!--提问-->
+    <string name="home_ask_cancel">取消</string>
+    <string name="home_ask_commit">发布</string>
 
 </resources>

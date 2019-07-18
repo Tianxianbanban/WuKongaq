@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/login_dialog_register_back"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/login_register_back"
+        android:layout_width="@dimen/login_dialog_register_back_width"
+        android:layout_height="@dimen/login_dialog_register_back_width" />
+
+    <ImageView
+        android:id="@+id/login_dialog_register_cancel"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/cancel"
+        android:layout_width="@dimen/login_dialog_register_cancel_width"
+        android:layout_height="@dimen/login_dialog_register_cancel_width" />
+
+    <include
+        android:id="@+id/login_dialog_common"
+        android:layout_marginTop="@dimen/login_dialog_common_input_margin"
+        android:layout_below="@id/login_dialog_register_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/login_dialog_common" />
+    <TextView
+        android:id="@+id/login_dialog_tip"
+        android:text="@string/login_dialog_register"
+        android:textColor="@color/color_4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_dialog_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <include
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/login_dialog_common2_margin"
+        android:layout_marginEnd="@dimen/login_dialog_common2_margin"
+        android:layout_marginBottom="@dimen/login_dialog_common2_margin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/login_dialog_common2"/>
+
+</RelativeLayout>

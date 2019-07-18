@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/home_recommend_comment_item_like_iv"
+        android:layout_toStartOf="@id/home_recommend_comment_item_like_tv"
+        android:src="@drawable/like"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/home_recommend_comment_item_like_tv"
+        android:text="0"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/home_recommend_comment_item_head_civ"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/my_user"
+        android:layout_marginRight="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/home_recommend_comment_item_name_tv"
+        android:layout_toEndOf="@id/home_recommend_comment_item_head_civ"
+        android:text="特邀评论员嘤嘤嘤"
+        android:textSize="15sp"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/home_recommend_comment_item_content_tv"
+        android:layout_toEndOf="@id/home_recommend_comment_item_head_civ"
+        android:layout_below="@id/home_recommend_comment_item_name_tv"
+        android:layout_marginTop="15dp"
+        android:text="hahahahahhah哈哈哈哈哈哈"
+        android:textSize="17sp"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_recommend_comment_item_time_tv"
+        android:layout_below="@id/home_recommend_comment_item_content_tv"
+        android:layout_toEndOf="@id/home_recommend_comment_item_head_civ"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp"
+        android:text="11-22 20:49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_recommend_comment_item_reply_num_tv"
+        android:layout_toEndOf="@id/home_recommend_comment_item_time_tv"
+        android:layout_below="@id/home_recommend_comment_item_content_tv"
+        android:layout_margin="15dp"
+        android:textSize="12sp"
+        android:text="回复"
+        android:background="@color/background_2"
+        android:shadowRadius="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

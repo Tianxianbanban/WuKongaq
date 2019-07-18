@@ -14,9 +14,16 @@
     <!--全局背景灰色-->
     <color name="background_2">#E6E6E6</color>
 
+
     <color name="color_1">#000</color>
     <!--全局线条橙色-->
     <color name="color_2">#ff7336</color>
+    <!--白色-->
+    <color name="color_3">#E6E6E6</color>
+    <!--连接式蓝色-->
+    <color name="color_4">#3e58c9</color>
+    <!--红色-->
+    <color name="color_5">#FF3300</color>
 
 
 </resources>

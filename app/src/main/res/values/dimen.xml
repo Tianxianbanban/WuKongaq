@@ -26,6 +26,7 @@
     <dimen name="mine_menu_width">50dp</dimen>
     <dimen name="mine_menu_text_margin_top">6dp</dimen>
     <dimen name="mine_menu_margin_normal">20dp</dimen>
+
     <!--板块之间的间隔-->
     <dimen name="mine_menu_module_Margin">6dp</dimen>
     <!--下方viewpager的导航栏-->
@@ -44,5 +45,40 @@
     <dimen name="mine_content_null_btn_height">30dp</dimen>
     <!--viewpager的高度-->
     <dimen name="mine_content_viewPager_height">800dp</dimen>
+
+
+    <!--消息-->
+    <dimen name="message_menu_item_height">100dp</dimen>
+    <dimen name="message_circle_width">50dp</dimen>
+    <dimen name="message_circle_margin">16dp</dimen>
+    <dimen name="message_menu_item_name_size">18sp</dimen>
+    <dimen name="message_menu_item_direction_width">22dp</dimen>
+
+
+    <!--登录注册页面-->
+    <dimen name="login_margin">10dp</dimen>
+    <dimen name="login_item_width">60dp</dimen>
+    <dimen name="login_item_margin_normal">5dp</dimen>
+    <dimen name="login_item_botton_iv_margin">80dp</dimen>
+    <!--登录注册对话框-->
+    <dimen name="login_dialog_common_margin">20dp</dimen>
+    <dimen name="login_dialog_common_input_margin">10dp</dimen>
+    <dimen name="login_dialog_common2_menu_width">40dp</dimen>
+    <dimen name="login_dialog_common2_margin">100dp</dimen>
+    <dimen name="login_dialog_common2_margin_bottom">30dp</dimen>
+    <dimen name="login_dialog_register_back_width">23dp</dimen>
+    <dimen name="login_dialog_register_cancel_width">30dp</dimen>
+    <!--登录对话框-->
+
+    <dimen name="main_login_register_margin">40dp</dimen>
+    <dimen name="main_login_register_modle_margin">6dp</dimen>
+
+
+    <!--首页-->
+    <!--提问活动-->
+    <dimen name="home_ask_title_size">20sp</dimen>
+    <dimen name="home_ask_title_margin_parent">10dp</dimen>
+    <dimen name="home_ask_content_size">24sp</dimen>
+    <dimen name="home_ask_content_line_height">20dp</dimen>
 
 </resources>

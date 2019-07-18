@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/mine_user_change_dialog_tip"
+        android:text="请输入介绍"
+        android:textColor="@color/color_1"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/mine_user_change_dialog_et"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/mine_user_change_dialog_tip"
+        android:hint="一句话介绍自己的职业或者兴趣"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+
+    <Button
+        android:id="@+id/mine_user_change_dialog_cancel_btn"
+        android:layout_below="@id/mine_user_change_dialog_et"
+        android:layout_toStartOf="@id/mine_user_change_dialog_commit_btn"
+        android:text="取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/mine_user_change_dialog_commit_btn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/mine_user_change_dialog_et"
+        android:text="确定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

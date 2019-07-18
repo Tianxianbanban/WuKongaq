@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/login_common_phone_et"
+        android:layout_margin="@dimen/login_margin"
+        android:hint="@string/login_dialog_phone"
+        android:layout_marginTop="@dimen/login_dialog_common_input_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/login_common_password_et"
+        android:layout_margin="@dimen/login_margin"
+        android:inputType="textPassword"
+        android:hint="@string/login_dialog_password"
+        android:layout_marginTop="@dimen/login_dialog_common_input_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/login_common_access_btn"
+        android:text="@string/login_dialog_access"
+        android:textColor="@color/color_3"
+        android:layout_margin="@dimen/login_dialog_common_input_margin"
+        android:background="@drawable/login_dialog_common_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

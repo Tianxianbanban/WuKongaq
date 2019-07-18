@@ -12,6 +12,7 @@
         />
 
     <Button
+        android:id="@+id/mine_content_replay_todo_btn"
         android:text="@string/mine_content_null_tip2_todo"
         android:textColor="@color/color_2"
         android:layout_centerHorizontal="true"

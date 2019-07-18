@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:background="@color/background_2"
     android:layout_width="match_parent"
-    android:minHeight="200dp"
+    android:minHeight="800dp"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -57,5 +57,4 @@
         android:layout_height="@dimen/mine_content_viewPager_height"
         android:flipInterval="30"
         android:persistentDrawingCache="animation" />
-
 </LinearLayout>

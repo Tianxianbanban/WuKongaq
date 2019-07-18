@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:rowCount="1"
+    android:columnCount="3"
+    android:layout_marginStart="@dimen/login_dialog_common2_margin"
+    android:layout_marginEnd="@dimen/login_dialog_common2_margin"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/login_2"
+        android:layout_width="@dimen/login_dialog_common2_menu_width"
+        android:layout_height="@dimen/login_dialog_common2_menu_width"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/login_3"
+        android:layout_width="@dimen/login_dialog_common2_menu_width"
+        android:layout_height="@dimen/login_dialog_common2_menu_width"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/login_4"
+        android:layout_width="@dimen/login_dialog_common2_menu_width"
+        android:layout_height="@dimen/login_dialog_common2_menu_width"
+        android:layout_columnWeight="1"
+        tools:targetApi="lollipop" />
+</GridLayout>

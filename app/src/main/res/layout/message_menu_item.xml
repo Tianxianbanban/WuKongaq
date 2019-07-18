@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_menu_item_iv"
+        android:src="@drawable/my_user"
+        android:layout_margin="@dimen/mine_user_head_margin"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/message_circle_width"
+        android:layout_height="@dimen/message_circle_width" />
+    
+    <TextView
+        android:id="@+id/message_menu_item_tx"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/message_menu_item_iv"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/message_menu_item_name_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:background="@drawable/message_0"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/message_circle_margin"
+        android:layout_width="@dimen/message_menu_item_direction_width"
+        android:layout_height="@dimen/message_menu_item_direction_width" />
+    
 </RelativeLayout>

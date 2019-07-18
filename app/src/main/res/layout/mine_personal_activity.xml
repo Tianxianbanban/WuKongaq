@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MinePersonalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="80dp">
+        <Button
+            android:id="@+id/mine_personal_back_btn"
+            android:background="@drawable/recommend_back"
+            android:layout_alignParentBottom="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <TextView
+            android:text="编辑资料"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            android:textColor="@color/color_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mine_personal_item_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

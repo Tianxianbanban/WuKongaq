@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MineAskItemContentActivity">
+
+    <Button
+        android:id="@+id/mine_ask_item_content_back_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/recommend_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/mine_ask_item_content_more_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/a0x"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:id="@+id/mine_ask_item_content_question_tv"
+        android:layout_below="@id/mine_ask_item_content_back_btn"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="一个问题"
+        android:textSize="22sp"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mine_ask_item_content_description_tv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="描述"
+        android:layout_below="@id/mine_ask_item_content_question_tv"
+        android:textSize="18sp"
+        android:textColor="@color/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mine_ask_item_content_reply_num_tv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_below="@id/mine_ask_item_content_description_tv"
+        android:text="回答"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mine_ask_item_content_collection_num_tv"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/mine_ask_item_content_reply_num_tv"
+        android:layout_below="@id/mine_ask_item_content_description_tv"
+        android:text="收藏"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:background="@color/background_1"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/mine_ask_item_content_reply_offer_iv"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/q0"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <ImageView
+            android:id="@+id/mine_ask_item_content_collection_iv"
+            android:layout_toEndOf="@id/mine_ask_item_content_reply_offer_iv"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/a13"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <TextView
+            android:id="@+id/mine_ask_item_content_reply_offer_tv"
+            android:layout_below="@id/mine_ask_item_content_reply_offer_iv"
+            android:text="邀请回答"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mine_ask_item_content_collection_tv"
+            android:layout_toEndOf="@id/mine_ask_item_content_reply_offer_tv"
+            android:layout_below="@id/mine_ask_item_content_collection_iv"
+            android:layout_marginStart="40dp"
+            android:text="邀请回答"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mine_ask_item_content_to_reply_tv"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="回答"
+            android:textColor="@color/color_5"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
